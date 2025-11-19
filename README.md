@@ -1,17 +1,23 @@
-Package used :
-cors
-express
-
+## To Start with Frontend, Backend and Docker
 
 To start with basic package.json file in backend
-npm init -y
+```bash
+  npm init -y
+```
 
 To install Vite + React basic frontend page
-npm i vite@latest .
+```bash
+  npm i vite@latest .
+```
 
+## Docker
 
 Docker will build server named (express-server) as image in docker in current directory
-docker build -t express-server .
+```bash
+  docker build -t express-server .
+```
 
 Run port local port : docker port image build in docker
-docker run -p 4000:4000 express-server
+```bash
+  docker run -p 4000:4000 express-server
+```
