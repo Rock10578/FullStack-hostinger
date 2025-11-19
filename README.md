@@ -21,3 +21,8 @@ Run port local port : docker port image build in docker
 ```bash
   docker run -p 4000:4000 express-server
 ```
+
+Run final docker when docker-compose.yaml
+```bash
+  docker compose up
+```
